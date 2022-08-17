@@ -1,0 +1,204 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: montserrat;
+    width: 100%;
+    height: 100vh;  
+    background-image:linear-gradient(to left,skyblue,floralwhite);
+
+}
+nav{
+    height:80px;
+    width: 100%;
+    background: deeppink;
+}
+label.logo{
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    padding: 0 100px;
+    line-height: 80px;
+    
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    float: left;
+    line-height: 50px;
+    margin: 0 5px;
+}
+nav ul li a{
+     
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+nav a{
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    padding: 7px 10px;
+    border-radius: 3px;
+}
+a.contact,a:hover{
+    border: 1px solid skyblue;
+    transition: 0.5s;
+    background-color: skyblue;
+
+}
+a:active{
+   opacity: 0.8;
+
+}
+#foot{
+    text-align: center;
+    float: right;
+}
+nav li{
+    float: right;
+    margin-top: 0;
+}
+    
+
+
+header #lg{
+    float: left;
+}
+
+
+
+
+
+#screen{
+   
+    margin-left: 20px;
+    margin-right: auto;
+}
+
+#screen #left{
+    width: 50%;
+    height: 100vh;
+    float: left;
+   
+}
+#screen #right{
+    width: 50%;
+    height: 100vh;
+    float: right;
+   
+}   
+#left h1{
+    text-align: center;
+    color: darkblue;
+
+}
+#right h2{
+    text-align: center;
+    padding: 15px;
+    color: darkgoldenrod;
+    font-size: 30px;
+}
+#left h3{
+    color: deepskyblue;
+    font-weight: bold;
+}
+#left h2{
+    color: hotpink;
+}
+#right #fname,#e-mail,#address{
+    margin-left: 30px;
+    margin-right: 30px;
+    cursor: pointer;
+}
+#right #arabic-mehandi,#indian-mehandi,#bridal-mehandi,#fhand,#bhand{
+    margin-left: 60px;
+    cursor: pointer;
+}
+#right p{
+    margin-left: 30px;
+}
+#right #sub{
+    margin-left: 260px;
+    margin-right: 60px;
+    padding: 10px;
+    cursor: pointer;
+}
+#right #lname,#mob-no,#cityname{
+    cursor: pointer;
+} 
+#right #sub{
+    border-radius: 18px;
+    padding-right: 35px;
+    padding-left: 35px;
+    background-color: limegreen;
+    border: none;
+
+}
+#right #sub:hover{
+    opacity: 0.8;
+    font-weight: bold;
+    opacity: 0.8;
+    text-transform: uppercase;
+    box-shadow: 3px 4px 3px black;
+    transition: 0.15s;
+   
+}
+#right #sub:active{
+    opacity: 0.3;
+    color: white;
+  }
+#fname:hover{
+    border-color: lightblue;
+    background-color: lightyellow;
+    border-width: 3px;
+}
+#lname:hover{
+    border-color: lightblue;
+    background-color: lightyellow;
+    border-width: 3px;
+}
+#e-mail:hover{
+    border-color: lightblue;
+    background-color: lightyellow;
+    border-width: 3px;
+}
+#mob-no:hover{
+    border-color: lightblue;
+    background-color: lightyellow;
+    border-width: 3px;
+}
+#address:hover{
+    border-color: lightblue;
+    background-color: lightyellow;
+    border-width: 3px;
+}
+#cityname:hover{
+    border-color: lightblue;
+    background-color: lightyellow;
+    border-width: 3px;
+}
+#suggest:hover{
+    border-color: lightblue;
+    background-color: lightyellow;
+    border-width: 3px;
+}
+.foot{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 938px;
+}

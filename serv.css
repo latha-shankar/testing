@@ -1,0 +1,347 @@
+*{
+box-sizing: border-box;
+text-decoration: none;
+margin: 0;
+padding: 0;
+}
+body{
+	font-family: montserrat;
+    width: 100%;
+    height: 100vh;  
+    background-image:url(imgs/pink.jpg) ;
+    background-repeat: repeat-y;
+    background-position: center;
+    background-size: cover;
+}
+nav{
+    height:80px;
+    width: 100%;
+    background: deeppink;
+}
+label.logo{
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    padding: 0 100px;
+    line-height: 80px;
+    
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    float: left;
+    line-height: 50px;
+    margin: 0 5px;
+}
+nav ul li a{
+     
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+nav a{
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    padding: 7px 10px;
+    border-radius: 3px;
+}
+a.service,a:hover{
+    border: 1px solid skyblue;
+    transition: 0.5s;
+    background-color: skyblue;
+
+}
+a:active{
+  opacity: 0.8;
+
+}
+#foot{
+    text-align: center;
+    float: right;
+}
+nav li{
+    float: right;
+    margin-top: 0;
+}
+    
+header #lg{
+    float: left;
+}
+header{
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+
+.entire h1{
+text-align: center;
+font-size: 40px;
+margin-top: 20px;
+font-family: 'DM Serif Display', serif;
+background-color: skyblue;
+color: white;
+}
+
+.nail img{
+    border: 3px solid transparent;
+    box-shadow: 15px 15px 15px grey;
+    border-left-color: grey;
+    border-top-color: grey;
+}
+.makeup img{
+    border: 3px solid transparent;
+    box-shadow: 15px 15px 15px grey;
+    border-left-color: grey;
+    border-top-color: grey;
+}
+.saree img{
+    border: 3px solid transparent;
+    box-shadow: 15px 15px 15px grey;
+    border-left-color: grey;
+    border-top-color: grey;
+}
+.hairdo img{
+    border: 3px solid transparent;
+    box-shadow: 15px 15px 15px grey;
+    border-left-color: grey;
+    border-top-color: grey;
+}
+.decor img{
+    border: 3px solid transparent;
+    box-shadow: 15px 15px 15px grey;
+    border-left-color: grey;
+    border-top-color: grey;
+}
+.photo img{
+    border: 3px solid transparent;
+    box-shadow: 15px 15px 15px grey;
+    border-left-color: grey;
+    border-top-color: grey;
+}
+
+
+.extra{
+    display: flex;
+    margin: 20px;
+    bac
+
+}
+.nail p{
+   font-size: 20px;
+   text-align: center;
+   line-height: 30px;
+   margin: 30px;
+}
+.makeup p{
+   font-size: 20px;
+   text-align: center;
+   line-height: 30px;
+    margin: 30px;
+} 
+.saree p{
+   font-size: 20px;
+   text-align: center;
+   line-height: 30px;
+    margin: 30px;
+}
+#nail{
+    margin-left: 85px;
+}
+#makeup{
+    margin-left: 35px;
+}
+#saree{
+    margin-left: 55px;
+}
+.nail h2{
+    border: 1px solid transparent;
+    box-shadow: 8px 8px 8px black;
+    background-color: grey;
+    text-align: center;
+    font-size: 32px;
+    color: #e3ef19;
+   margin-right: 30px;
+
+
+}
+.makeup h2{
+    border: 1px solid transparent;
+    box-shadow: 8px 8px 8px black;
+    background-color: grey;
+    text-align: center;
+    font-size: 32px;
+    color: #24e236;
+}
+.saree h2{
+    border: 1px solid transparent;
+    box-shadow: 8px 8px 8px black;
+    background-color: grey;
+    text-align: center;
+    font-size: 32px;
+    color: #ef341f;
+    margin-left: 30px;
+}
+
+
+.extra1{
+    display: flex;
+    margin: 20px;
+}
+
+.hairdo p{
+   font-size: 20px;
+   text-align: center;
+   line-height: 30px;
+    margin: 30px;
+}
+.decor p{
+   font-size: 20px;
+   text-align: center;
+   line-height: 30px;
+    margin: 30px;
+}
+.photo p{
+   font-size: 20px;
+   text-align: center;
+   line-height: 30px;
+    margin: 30px;
+}
+#hairdo{
+    margin-left: 80px;
+}
+#decor{
+    margin-left: 70px;
+}
+#photo{
+    margin-left: 50px;
+}
+
+.hairdo h2{
+     border: 1px solid transparent;
+    box-shadow: 8px 8px 8px black;
+    margin-right: 30px;
+    background-color: grey;
+    text-align: center;
+    font-size: 32px;
+    color: #f39716;
+}
+.decor h2{
+     border: 1px solid transparent;
+    box-shadow: 8px 8px 8px black;
+    background-color: grey;
+    text-align: center;
+    font-size: 32px;
+    color: #f707d9;
+}
+.photo h2{
+     border: 1px solid transparent;
+    box-shadow: 8px 8px 8px black;
+    margin-left: 30px;
+    background-color: grey;
+    text-align: center;
+    font-size: 32px;
+    color: #0bd2b8;
+}
+.pick .nail{
+    font-size: 30px;
+}
+.pick .makeup{
+    font-size: 30px;
+}
+.pick .saree{
+    font-size: 30px;
+}
+.pick .hairdo{
+    font-size: 30px;
+}
+.pick .decor{
+    font-size: 30px;
+}
+.pick .photo{
+    font-size: 30px;
+}
+.pick #nail {
+    width: 20px;
+    margin-left: 20px;
+    height: 20px;
+}
+.pick #makeup {
+    width: 20px;
+    margin-left: 20px;
+    height: 20px;
+}
+.pick #saree {
+    width: 20px;
+    margin-left: 20px;
+    height: 20px;
+}
+.pick #hairdo {
+    width: 20px;
+    margin-left: 20px;
+    height: 20px;
+}
+.pick #decor {
+    width: 20px;
+    margin-left: 20px;
+    height: 20px;
+}
+.pick #photo {
+    width: 20px;
+    margin-left: 20px;
+    height: 20px;
+}
+
+.sub {
+    margin: 60px;
+    padding: 20px 40px;
+    border: 1px solid green;
+    background-color: greenyellow;
+    border-radius: 40px;
+    color: blue;
+    box-shadow: 5px 7px 6px grey;
+    font-size: 30px;
+    cursor: pointer;
+
+}
+.sub:hover{
+    
+     opacity: 0.8;
+
+}
+.sub:active{
+    background-color: pink;
+    transition: 0.15s;
+}
+
+
+.foot{
+    background-color: black;
+    color: white;
+    text-align: center;
+   
+}
+.pick h3{
+    text-align: center;
+    font-size: 46px;
+   font-family: 'DM Serif Display', serif;
+   color: #ff2f18;
+   text-shadow: 5px 5px 5px black;
+}
+.pick{
+    margin-left: 40px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    font-size: 38px;
+    color: blue;
+}

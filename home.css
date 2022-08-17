@@ -1,0 +1,133 @@
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	box-sizing: border-box;
+
+}
+body
+{
+	font-family: montserrat;
+	width: 100%;
+	height: 100vh;	
+    background: linear-gradient(to left,peachpuff,lightcoral);
+   
+}
+nav{
+	height:80px;
+	width: 100%;
+	background: deeppink;
+}
+label.logo{
+	color: white;
+	font-size: 35px;
+	font-weight: bold;
+	color: white;
+	padding: 0 100px;
+	line-height: 80px;
+	
+}
+nav ul{
+	float: right;
+	margin-right: 20px;
+}
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	float: left;
+	line-height: 80px;
+	margin: 0 5px;
+}
+nav ul li a{
+	color: white;
+	font-size: 17px;
+	text-transform: uppercase;
+}
+
+nav a{
+	color: white;
+	font-size: 18px;
+	text-transform: uppercase;
+	border: 1px solid transparent;
+	padding: 7px 10px;
+	border-radius: 3px;
+}
+a.home,a:hover{
+	border: 1px solid skyblue;
+	transition: 0.5s;
+	background-color: skyblue;
+
+}
+a:active{
+	opacity: 0.8;
+
+}
+
+nav li{
+	float: right;
+	margin-top: 0;
+}
+	
+header #lg{
+	float: left;
+}
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+}
+
+
+.pic img{
+  display: block;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.mela{
+    font-size: 25px;
+    line-height: 40px;
+    text-indent: 90px;
+    margin-top: 40px;
+    margin-right: 100px;
+    margin-left: 100px;
+    font-style: italic;
+    color: blueviolet;
+}
+.pic{
+    position: static;
+    background-image: url(imgs/Night-sky.jpg);
+    border: 1px solid black;
+    padding-bottom: 20px;
+    background-size: cover;
+    background-position: center;
+    margin-top: 95px;
+}
+.pic a{
+    position: absolute;
+    float: right;
+    top: 420px;
+    right: 400px;
+    font-size: 25px;
+    color: white;
+    background-color: black;
+}
+.pic a:hover{
+    background-color: red;
+    border: 3px dashed skyblue;
+}
+.pic .hint{
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    left: 400px;
+    top: 200px;
+
+}
+.foot{
+	text-align: center;
+	margin-top: 638px;
+	background-color: black;
+	color: white;
+}

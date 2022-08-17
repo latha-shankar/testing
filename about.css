@@ -1,0 +1,159 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+body{
+	font-family: montserrat;
+    width: 100%;
+    height: 100vh;  
+    background: linear-gradient(to left,#c9c9db,orange);
+    background-image: url(imgs/pinky.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat-y;
+}
+
+nav{
+	height:80px;
+	width: 100%;
+	background: deeppink;
+}
+label.logo{
+	color: white;
+	font-size: 35px;
+	font-weight: bold;
+	color: white;
+	padding: 0 100px;
+	line-height: 80px;
+	
+}
+nav ul{
+	float: right;
+	margin-right: 20px;
+}
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	float: left;
+	line-height: 80px;
+	margin: 0 5px;
+}
+nav ul li a{
+	color: white;
+	font-size: 17px;
+	text-transform: uppercase;
+}
+
+nav a{
+	color: white;
+	font-size: 18px;
+	text-transform: uppercase;
+	border: 1px solid transparent;
+	padding: 7px 10px;
+	border-radius: 3px;
+}
+a.about,a:hover{
+	border: 1px solid skyblue;
+	transition: 0.5s;
+	background-color: skyblue;
+
+}
+a:active{
+	opacity: 0.8;
+
+}
+
+nav li{
+	float: right;
+	margin-top: 0;
+}
+	
+header #lg{
+	float: left;
+}
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+}
+h1 {
+    font-size: 50px;
+    margin-top: 100px;
+    text-align: center;
+    background-color: #d7f0ec;
+    color: red;
+    text-shadow: 5px 4px 5px black;
+}
+
+p.monday{
+    text-align: center;
+    font-size: 24px;
+    background-color: #d7f0ec;
+}
+p.sunday{
+	text-align: center;
+    font-size: 24px;
+    background-color: #d7f0ec;
+}
+
+
+h2{
+	margin-top: 80px;
+	text-align: center;
+	margin-top: 40px;
+	font-size: 40px;
+	color: blue;
+	text-shadow: 5px 5px 5px white;
+}
+
+table{
+width: 90%;
+margin-left: 75px;
+box-shadow: 10px 10px 10px blue;
+outline: 5px solid deeppink;
+}
+table,th,td{
+	border: 1px solid pink;
+	padding: 10px;
+	border-collapse: collapse;
+	border-width: medium;
+}
+th{
+	font-size: 40px;
+	color: blueviolet;
+	background-color: lightgoldenrodyellow;
+	padding: 20px;
+}
+tr{
+	font-size: 20px;
+}
+tr:nth-child(even) {
+  background-color: lightpink;
+}
+tr:nth-child(odd) {
+  background-color: white;
+}
+th.sno{
+	color: lightgreen;
+}
+th.ser{
+	color: tomato;
+}
+th.silver{
+	color: silver;
+}
+th.gold{
+	color: goldenrod;
+}
+th.platinum{
+	color: deeppink;
+}
+.foot{
+	text-align: center;
+	margin-top: 300px;
+	background-color: black;
+	color: white;
+}
